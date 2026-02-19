@@ -19,7 +19,7 @@ Properties:
 
 var playerData ={
 	info:{
-		src:`images/snale.png`
+		src:`images/character.png`
 	},
 	states:{
 		//The idle animation 
@@ -29,8 +29,8 @@ var playerData ={
 			cycle:true,
 			frames:
 			[
-				{width:128, height:128, startX:0, startY:0},
-				{width:128, height:128, startX:128, startY:0}
+				{width:256, height:256, startX:0, startY:0},
+				{width:256, height:256, startX:256, startY:0}
 				
 			]
 		},
@@ -41,11 +41,10 @@ var playerData ={
 			cycle:true,
 			frames:
 			[
-				{width:128, height:128, startX:0, startY:0},
-				{width:128, height:128, startX:128, startY:0},
-				{width:128, height:128, startX:256, startY:0},
-				{width:128, height:128, startX:384, startY:0},
-				{width:128, height:128, startX:512, startY:0}
+				{width:256, height:256, startX:0, startY:256},
+				{width:256, height:256, startX:256, startY:256},
+				{width:256, height:256, startX:512, startY:256},
+				{width:256, height:256, startX:0, startY:512}
 			]
 		},
 		//The jump animation 
@@ -65,11 +64,7 @@ var playerData ={
 			cycle:true,
 			frames:
 			[
-				{width:128, height:128, startX:768, startY:0},
-				{width:128, height:128, startX:768, startY:0},
-				{width:128, height:128, startX:768, startY:0},
-				{width:128, height:128, startX:768, startY:0},
-				{width:128, height:128, startX:896, startY:0}
+				{width:256, height:256, startX:512, startY:512},
 			]
 		},
 		//The attack animation 
